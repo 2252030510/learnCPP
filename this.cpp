@@ -9,7 +9,7 @@ public:
         //Person::age=age;
     }
 
-    Person addPerson(Person &p){
+    Person& addPerson(Person &p){
         this->age+=p.age;
         return *this;
     }
